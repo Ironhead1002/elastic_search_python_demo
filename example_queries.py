@@ -67,6 +67,9 @@ QUERY_FIVE = {
 
 # Will Return All documents with size and skip 10 documents with timeout 10 seconds
 QUERY_SIX = {
+    "query": {
+        "match_all": {}
+    },
     "from": 10,
     "size": 10,
     "timeout": "10s"
