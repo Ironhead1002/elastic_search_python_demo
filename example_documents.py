@@ -8,6 +8,16 @@ DOCUMENT = {
     "created_at": "2022-01-01T00:00:00"
 }
 
+DOCUMENT_TWO = {
+    "name": "John",
+    "age": 28,
+    "address": "Not St",
+    "city": "New",
+    "state": "NY",
+    "zip": "10001",
+    "created_at": "2023-01-01T00:00:00"
+}
+
 DENSE_VECTOR_DOCUMENT = {
     "shape": "square",
     "sides_length": [5, 5, 5, 5]
